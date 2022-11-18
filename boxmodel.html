@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        background-color: black;
+        height: 100px;
+        width: 100px;
+      }
+      button {
+        color: white;
+        background-color: black;
+        margin-top: 20px;
+        padding: 10px 20px 10px 20px;
+        /*       top  right bottom left */
+        /*       top-bottom  right-left */
+
+        /* padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px; */
+        border: 3px solid red;
+      }
+      .container {
+        display: flex;
+        width: 100vw;
+        border: 3px solid green;
+        justify-content: space-around;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <button>submit</button>
+    </div>
+  </body>
+</html>
